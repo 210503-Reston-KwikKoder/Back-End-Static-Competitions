@@ -1,0 +1,432 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionRestTests\\StaticCompetitionRestTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionBL\\StaticCompetitionBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionBL\\StaticCompetitionBL.csproj",
+        "projectName": "StaticCompetitionBL",
+        "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionBL\\StaticCompetitionBL.csproj",
+        "packagesPath": "C:\\Users\\CesarsPc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CesarsPc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionDL\\StaticCompetitionDL.csproj": {
+                "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionDL\\StaticCompetitionDL.csproj"
+              },
+              "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj": {
+                "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Octokit": {
+              "target": "Package",
+              "version": "[0.50.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Graylog": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionDL\\StaticCompetitionDL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionDL\\StaticCompetitionDL.csproj",
+        "projectName": "StaticCompetitionDL",
+        "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionDL\\StaticCompetitionDL.csproj",
+        "packagesPath": "C:\\Users\\CesarsPc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionDL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CesarsPc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj": {
+                "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Graylog": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj",
+        "projectName": "StaticCompetitionModels",
+        "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj",
+        "packagesPath": "C:\\Users\\CesarsPc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CesarsPc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Graylog": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionRestTests\\StaticCompetitionRestTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionRestTests\\StaticCompetitionRestTests.csproj",
+        "projectName": "StaticCompetitionRestTests",
+        "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionRestTests\\StaticCompetitionRestTests.csproj",
+        "packagesPath": "C:\\Users\\CesarsPc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionRestTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CesarsPc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionBL\\StaticCompetitionBL.csproj": {
+                "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionBL\\StaticCompetitionBL.csproj"
+              },
+              "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionDL\\StaticCompetitionDL.csproj": {
+                "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionDL\\StaticCompetitionDL.csproj"
+              },
+              "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj": {
+                "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionModels\\StaticCompetitionModels.csproj"
+              },
+              "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionRest\\StaticCompetitionRest.csproj": {
+                "projectPath": "C:\\Users\\CesarsPc\\Desktop\\Overhaul Competitions\\Back-End-Competitions\\CBE\\StaticCompetitionRest\\StaticCompetitionRest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
